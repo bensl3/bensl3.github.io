@@ -1,0 +1,78 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navvertical {
+    width: fit-content;
+    max-width: 200px;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.navvertical li {
+    margin: 6px;
+}
+
+.navbutton {
+    display: inline-block;
+    padding: 8px;
+    border: 2px outset black;
+    background-color: palegreen;
+    color: black;
+    font: 18px "Tahoma", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.navvertical .navbutton {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 16px;
+}
+
+nav {
+    text-align: center;
+}
+
+.navhorizontal {
+    margin: 0;
+    padding: 0;
+    font-size: 0;  /* remove gap between list items */
+    list-style: none;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.navhorizontal li {
+    display: inline-block;
+    white-space: wrap;
+}
+
+.navhorizontal .navbutton {
+    height: 45px;
+    max-width: 110px;
+    overflow-wrap: normal;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-overflow: ellipsis;
+}
+
+.navbutton:visited {
+    color: purple;
+}
+ 
+.navbutton:hover {
+    background-color: cyan;
+    text-decoration: underline;
+}
+
+.navbutton:active {
+    background-color: green;
+    color: white;
+}
